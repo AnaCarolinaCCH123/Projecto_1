@@ -1,6 +1,8 @@
 # Listas de música 
 El presente código muestra como ordenar listas de múisca amplias considerando su año de publicación. Es así que es posible reconocer que canción es más reciente e incluir las canciones que se desean ordenar. 
 
+#### Para complilar correctamente el promagrama se separaron los archivos en .cpp y .h para mejor organización, separados por clase. Además para mejor compilación, es decir si se compila un solo cpp hay que compilar todo ante cualquier cambio.
+
 ## SICT0302B: Toma decisiones 
 ### Selecciona y usa una estructura lineal adecuada al problema
 El uso de estructura lineal empleado es con un vector que permite almacenar elementos y acceder a ellos de manera rápida. El vector acepta objetos de tipo song cuyos atributos son año de publicación y título. 
