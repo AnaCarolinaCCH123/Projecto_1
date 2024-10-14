@@ -1,21 +1,30 @@
-
 #ifndef SONG_H_
 #define SONG_H_
 
-#include <iostream>
 #include <string>
+#include <iostream>
 
 class Song {
 public:
-    Song();  // Constructor por omision 
-    Song(std::string tit, int ano); // Constructor por parametros
+    int ano;
+    std::string title;
 
-    std::string getTit() const;
-    int getAno() const;
+    Song() : ano(0), title("") {}
+    Song(int a, const std::string& t) : ano(a), title(t) {}
 
-private:
-    std::string _tit;
-    int _ano;
+
+    int getAno() const { 
+        return ano; }
+
+    std::string getTitle() const {
+        return title; }
+
+    friend std::ostream& operator<<(std::ostream& overload, const Song& song) {
+        overload << "Title: " << song.title;
+        overload  << ", Year: " << song.ano;
+        return overload;
+    }
 };
 
-#endif
+#endif 
+
