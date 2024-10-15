@@ -160,8 +160,7 @@ T DList<T>::removeYear(int year) {
             return val;
         }
         p = p->next;
-    }
-    throw std::runtime_error("Year not found");
+    }throw std::out_of_range("Error");
 }
 
 template <class T>
@@ -185,8 +184,7 @@ T DList<T>::removeTitle(const std::string &titlele) {
             return val;
         }
         p = p->next;
-    }
-    throw std::runtime_error("Titlele not found");
+    }throw std::out_of_range("Error");
 }
 
 #endif
