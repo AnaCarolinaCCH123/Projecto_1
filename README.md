@@ -23,7 +23,7 @@ La complejidad del programa al emplear mergesort para tiempo es O(n log(n)), par
 La complejidad del programa al emplear listas doblemente ligadas para espacio es O(n), para tiempo para agregar es O(1), para eliminar O(n). 
 
 La complejidad conjunta del código:
-En tiempo es O(n log(n)) -> (O(n log(n))+O(n)+ O(n), 
+En tiempo es O(n log(n)) -> (O(n log(n))+O(n)+ O(n).
 En espacio es O(n). 
  
 ## SICT0303B: Implementa acciones científicas
@@ -34,5 +34,5 @@ El programa tiene la opción de insertar canciones (opcion 1), eliminar cancione
 Las canciones están en el archivo datosCanciones.csv, se leen al iniciar el programa.
 
 ## Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera
-Las canciones insertadas se guardan al inicio de datosCanciones.csv, emplea un vector temporal para escribir los datos y guardarlos en el archivo. 
+Las canciones insertadas se guardan al inicio de datosCanciones.csv, emplea un vector temporal para ordenar los datos y posteriormente guardarlos en el archivo. 
 
