@@ -7,7 +7,7 @@ void Sorts::ordenaMerge(std::vector<Song> &v) {
 }
 
 void Sorts::mergeSplit(std::vector<Song> &A, std::vector<Song> &B, int left, int right) {
-    if (left < right) {
+    if (left >= right) {
         return; }
         int mid = (left + right) / 2;
         mergeSplit(A, B, left, mid);
