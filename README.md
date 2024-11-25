@@ -23,7 +23,7 @@ La complejidad del programa al emplear mergesort para tiempo es O(n log(n)), par
 La complejidad del programa al emplear listas doblemente ligadas para espacio es O(n), para tiempo para agregar es O(1), para eliminar O(n). 
 
 La complejidad conjunta del código:
-En tiempo es O(n log(n)) -> (O(n log(n))+O(n)+ O(n).
+En tiempo es O(n log(n)) -> (O(n log(n))+O2(n).
 En espacio es O(n). 
  
 ## SICT0303B: Implementa acciones científicas
